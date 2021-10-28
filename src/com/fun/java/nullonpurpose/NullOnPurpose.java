@@ -11,6 +11,6 @@ public class NullOnPurpose {
     }
 
     private static void seeWhatHappensWhenWePassNullIn(String value){
-        if (!value.isEmpty()) System.out.println("SUCCESS! We have a value!");;
+        if (!value.isEmpty()) System.out.println("SUCCESS! We have a value!");
     }
 }
