@@ -8,6 +8,7 @@ public class TextBlock {
 
     private static String getSampleEmployeeData(boolean useTextBlockFeature) {
 
+        //This is what we are all familiar with, before Java 15 and "Text Blocks"
         var employeeTwentyThreeData = "{\n" +
                 "    \"status\": \"success\",\n" +
                 "    \"data\": {\n" +

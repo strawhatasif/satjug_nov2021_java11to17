@@ -1,5 +1,10 @@
 package com.fun.java.record;
 
+/**
+ * Note: Prior to Record in Java 15, to create an immutable Plain Old Java Object (POJO) one would have to either:
+ * 1. manually create an object with final attributes
+ * 2. OR, use the @Value annotation from Lombok - https://projectlombok.org/features/Value
+ */
 public class SpinningThatRecord {
     public static void main(String[] args) {
         getEmployeeData();
